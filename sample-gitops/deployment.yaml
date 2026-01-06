@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: DOCKERHUB_USER/sample-app:latest
+        image: borgesntz/sample-app:v1.0.2
         ports:
         - containerPort: 5000
 
